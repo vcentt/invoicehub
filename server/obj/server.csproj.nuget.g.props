@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/vcent/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/vcent/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.5.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/Users/vcent/.nuget/packages/" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)htmltopdfcore/2.0.0/contentFiles/any/any/rotativa/Linux/libwkhtmltox.so" Condition="Exists('$(NuGetPackageRoot)htmltopdfcore/2.0.0/contentFiles/any/any/rotativa/Linux/libwkhtmltox.so')">
+      <NuGetPackageId>HtmlToPDFCore</NuGetPackageId>
+      <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>rotativa/Linux/libwkhtmltox.so</TargetPath>
+      <DestinationSubDirectory>rotativa/Linux/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>rotativa/Linux/libwkhtmltox.so</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)htmltopdfcore/2.0.0/contentFiles/any/any/rotativa/Linux/wkhtmltopdf" Condition="Exists('$(NuGetPackageRoot)htmltopdfcore/2.0.0/contentFiles/any/any/rotativa/Linux/wkhtmltopdf')">
+      <NuGetPackageId>HtmlToPDFCore</NuGetPackageId>
+      <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>rotativa/Linux/wkhtmltopdf</TargetPath>
+      <DestinationSubDirectory>rotativa/Linux/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>rotativa/Linux/wkhtmltopdf</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)htmltopdfcore/2.0.0/contentFiles/any/any/rotativa/Mac/libwkhtmltox.dylib" Condition="Exists('$(NuGetPackageRoot)htmltopdfcore/2.0.0/contentFiles/any/any/rotativa/Mac/libwkhtmltox.dylib')">
+      <NuGetPackageId>HtmlToPDFCore</NuGetPackageId>
+      <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>rotativa/Mac/libwkhtmltox.dylib</TargetPath>
+      <DestinationSubDirectory>rotativa/Mac/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>rotativa/Mac/libwkhtmltox.dylib</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)htmltopdfcore/2.0.0/contentFiles/any/any/rotativa/Mac/wkhtmltopdf" Condition="Exists('$(NuGetPackageRoot)htmltopdfcore/2.0.0/contentFiles/any/any/rotativa/Mac/wkhtmltopdf')">
+      <NuGetPackageId>HtmlToPDFCore</NuGetPackageId>
+      <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>rotativa/Mac/wkhtmltopdf</TargetPath>
+      <DestinationSubDirectory>rotativa/Mac/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>rotativa/Mac/wkhtmltopdf</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)htmltopdfcore/2.0.0/contentFiles/any/any/rotativa/Windows/wkhtmltopdf.exe" Condition="Exists('$(NuGetPackageRoot)htmltopdfcore/2.0.0/contentFiles/any/any/rotativa/Windows/wkhtmltopdf.exe')">
+      <NuGetPackageId>HtmlToPDFCore</NuGetPackageId>
+      <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>rotativa/Windows/wkhtmltopdf.exe</TargetPath>
+      <DestinationSubDirectory>rotativa/Windows/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>rotativa/Windows/wkhtmltopdf.exe</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)htmltopdfcore/2.0.0/contentFiles/any/any/rotativa/Windows/wkhtmltox.dll" Condition="Exists('$(NuGetPackageRoot)htmltopdfcore/2.0.0/contentFiles/any/any/rotativa/Windows/wkhtmltox.dll')">
+      <NuGetPackageId>HtmlToPDFCore</NuGetPackageId>
+      <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>rotativa/Windows/wkhtmltox.dll</TargetPath>
+      <DestinationSubDirectory>rotativa/Windows/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>rotativa/Windows/wkhtmltox.dll</Link>
+    </Content>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server/6.0.5/build/Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server/6.0.5/build/Microsoft.Extensions.ApiDescription.Server.props')" />
+    <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore/6.4.0/build/Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore/6.4.0/build/Swashbuckle.AspNetCore.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore/8.0.0-preview.4.23259.3/buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore/8.0.0-preview.4.23259.3/buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design/8.0.0-preview.4.23259.3/build/net6.0/Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design/8.0.0-preview.4.23259.3/build/net6.0/Microsoft.EntityFrameworkCore.Design.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/Users/vcent/.nuget/packages/microsoft.codeanalysis.analyzers/2.9.3</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">/Users/vcent/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">/Users/vcent/.nuget/packages/microsoft.entityframeworkcore.tools/8.0.0-preview.4.23259.3</PkgMicrosoft_EntityFrameworkCore_Tools>
+  </PropertyGroup>
+</Project>

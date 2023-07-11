@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Factura</title>
+	<style>
+		/* Estilos de la factura */
+		.invoice {
+			font-family: Arial, sans-serif;
+			margin: 20px;
+		}
+
+		.invoice-header {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		.invoice-header h1 {
+			font-size: 24px;
+			margin: 0;
+		}
+
+		.invoice-details {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 20px;
+		}
+
+		.invoice-details p {
+			margin: 5px 0;
+		}
+
+		.invoice-address {
+			width: 40%;
+		}
+
+		.invoice-customer {
+			width: 40%;
+		}
+
+		.invoice-table {
+			width: 100%;
+			border-collapse: collapse;
+			margin-bottom: 20px;
+		}
+
+		.invoice-table th,
+		.invoice-table td {
+			border: 1px solid #ddd;
+			padding: 10px;
+		}
+
+		.invoice-table th {
+			background-color: #f2f2f2;
+			font-weight: bold;
+		}
+
+		.invoice-summary {
+			text-align: right;
+			margin-top: 20px;
+		}
+
+		.invoice-summary table {
+			width: 100%;
+		}
+
+		.invoice-summary td {
+			padding: 5px 10px;
+		}
+
+		.invoice-summary .summary-label {
+			font-weight: bold;
+		}
+
+		.invoice-summary .summary-total {
+			font-weight: bold;
+			border-top: 2px solid #000;
+		}
+
+		.invoice-summary .summary-value {
+			text-align: right;
+		}
+
+		.invoice-summary .summary-total-value {
+			text-align: right;
+			font-size: 18px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="invoice">
+		<div class="invoice-header">
+			<h1>Factura</h1>
+		</div>
+
+		<div class="invoice-details">
+			<div class="invoice-address">
+				<p>Dirección: 123 Calle Principal, Ciudad</p>
+				<p>Teléfono: 123-456-7890</p>
+				<p>Email: info@example.com</p>
+			</div>
+			<div class="invoice-summary">
+				<p>{{CustomerName}}</p>
+				<p>Dirección: {{CustomerAddress}}</p>
+				<p>Teléfono: {{CustomerPhone}}</p>
+			</div>
+		</div>
+
+		<table class="invoice-table">
+			<thead>
+				<tr>
+					<th>Producto</th>
+					<th>Cantidad</th>
+					<th>Precio Unitario</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{ProductRows}}
+			</tbody>
+		</table>
+
+		<div class="invoice-summary">
+			<table>
+				<tr>
+					<td class="summary-label">Subtotal:</td>
+					<td class="summary-value">{{SubTotal}}</td>
+				</tr>
+				<tr>
+					<td class="summary-label">ITBIS:</td>
+					<td class="summary-value">{{Itbis}}</td>
+				</tr>
+				<tr>
+					<td class="summary-label">Descuentos:</td>
+					<td class="summary-value">{{Discounts}}</td>
+				</tr>
+				<tr>
+					<td class="summary-total">Total:</td>
+					<td class="summary-total-value">{{Total}}</td>
+				</tr>
+			</table>
+		</div>
+
+	</div>
+</body>
+
+</html>
